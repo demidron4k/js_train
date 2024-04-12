@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body .container {
+  margin: 50px auto;
+  width: 280px;
+  height: 500px;
+  background: #000;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Arial" sans-serif;
+  padding: 18px;
+  box-shadow: 4px 4px 4px #4f4f4f;
+}
+body .container .scrin {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+body .container .scrin p {
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body .container .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+}
+body .container .buttons .btn-dot {
+  margin-right: 14px;
+}
+body .container .buttons .btn-zero {
+  width: 120px;
+  border-radius: 34px;
+}
+body .container .buttons div {
+  margin-bottom: 9px;
+  margin-right: 10px;
+  background: #333;
+  border-radius: 50%;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.5em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body .container .buttons .btn-equal-orange {
+  background: orange;
+}
+body .container .buttons .btn-plus-orange {
+  background: orange;
+}
+body .container .buttons .btn-minus-orange {
+  background: orange;
+}
+body .container .buttons .btn-multyply-orange {
+  background: orange;
+}
+body .container .buttons .btn-division-orange {
+  background: orange;
+}
+body .container .buttons .btn-plus-minus-grey {
+  background: #a6a6a6;
+}
+body .container .buttons .btn-percent-grey {
+  background: #a6a6a6;
+}
+body .container .buttons .btn-ac-grey {
+  background: #a6a6a6;
+}
+body .container .buttons div:hover {
+  filter: brightness(120%);
+}
+body .container .buttons div:active {
+  filter: brightness(90%);
+}/*# sourceMappingURL=style.css.map */
