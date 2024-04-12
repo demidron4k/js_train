@@ -336,5 +336,5 @@ const firstPost = {
 }
 
 console.log(newPost(firstPost))
-
+js sasdassds
 */
